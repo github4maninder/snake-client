@@ -21,6 +21,9 @@ const setupInput = function(conn) {
     if (key === 'd') {
       connection.write('Move: right');
     }
+    if (key === 'h') {
+      connection.write('Say: imokay' );
+    }
     if (key === '\u0003') {
       process.exit();
     }
